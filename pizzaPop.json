@@ -1,0 +1,131 @@
+{
+	"pizza":[
+		{
+			"name":"Cheese Pizza",
+			"category": ["popular"],
+			"description":"classic marinara sauce top, mozzarella cheese",
+			"image":""
+		},
+			{
+			"name":"Pepperoni Pizza",
+			"category": ["popular","meat"],
+			"description":"mozzarella cheese, pepperoni",
+			"image":""
+		},
+			{
+			"name":"Chicago Pizza",
+			"category": ["veggie"],
+			"description":"deep-dish crust, cheese, fresh tomato sauce",
+			"image":""
+		},
+			{
+			"name":"White Pizza",
+			"category": ["veggie"],
+			"description":"garlic, ricotta, mozzarella",
+			"image":""
+		},
+			{
+			"name":"Salad Pizza",
+			"category": ["veggie"],
+			"description":"romaine, cucumber, tomatoes, feta, olive,Greek dressing",
+			"image":""
+		},
+			{
+			"name":"Kebab Pizza",
+			"category": ["popular", "meat"],
+			"description":"Tomato sauce, cheese, slice kebab meat, yogurt sauce, pepperoncini",
+			"image":"https://i.guim.co.uk/img/static/sys-images/Lifeandhealth/Pix/pictures/2013/9/11/1378890917204/Lamb-doner-kebab-pizza-at-009.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=b1483109d32bca5dd9a0b89e64469ca6"
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		},
+			{
+			"name":"",
+			"category": [],
+			"description":"",
+			"image":""
+		}
+	],
+	"deal":{
+		"tue":[],
+		"thurs":[],
+		"special":[]
+	},
+	"dessert":[],
+	"drink":[]
+}

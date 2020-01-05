@@ -1,20 +1,27 @@
-var fs = require('fs');
-var http = require('http');
+var express = require('express');
+var app = express();
 
-http.createServer(function (req, res) {
+var port = process.env.PORT || 3000;
 
-  if (req.url === '/') {
-    fs.createReadStream(__dirname + '/index.html').pipe(res);
-  }
+app.get('/', function (req, res) {
+  res.json({ firstname: 'John', last: 'Doe', id: 1 })
+});
 
-  if (req.url === '/pizza') {
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    var obj = {
-      firstname: 'John',
-      lastname: 'Doe'
-    }
-    res.end(JSON.stringify(obj))
-  }
+app.listen(port);
 
 
-}).listen(1337, '127.0.0.1');
+
+
+// app.use('/assets', express.static(__dirname + '/public'));
+
+// app.use('/', function (req, res, next) {
+//   console.log('Request Url:' + req.url);
+// })
+
+// app.get('/', function (req, res) {
+//   res.send('<html><head> <link href=assets/style.css type=text/css rel=stylesheet/></head><body><h1>Hey</h1></body></html>')
+// });
+
+// app.get('/person/:id', function (req, res) {
+//   res.send('<html><head></head><body><h1>Hey:' + req.params.id + '</h1></body></html>')
+// });
